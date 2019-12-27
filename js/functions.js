@@ -12,3 +12,10 @@ if (time== 12) {
 myElement = document.getElementById('timeColor');
 myElement.style.backgroundcolor = color;
 
+
+function names() { var nombres = []; 
+    var cont = '';
+     var x; for (i = 0; i <= 2; i++) {
+          x = prompt("¿De dónde eres?:", ""); 
+          nombres.push(x); } for (i = 0; i <= 2; i++)
+           { cont += nombres[i] + " "; } document.getElementById("here").innerHTML = cont; }
